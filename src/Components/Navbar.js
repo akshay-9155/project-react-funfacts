@@ -1,18 +1,18 @@
 import React from 'react'
 import reactLogo from '../Images/logo.svg';
-const Navbar = () => {
+const Navbar = (props) => {
     return (
-        <div className='navbar'>
+        <div className={`navbar ${props.darkMode ? "dark" : ""}`}>
             <div className="navPart1">
                 <img src={reactLogo} alt="React Logo" />
                 <h1>ReactFacts</h1>
             </div>
             <div className="navPart2">
-                <div className="phone">
-                    <h3>React Course</h3>
-                    <h3>Project 1</h3>
+                <p className={`toggle-light ${props.darkMode ? "dark" : ""}`}>Light</p>
+                <div className={`toggle-bar ${props.darkMode ? "dark" : ""}`} onClick={props.handleToggle}>
+                    <div className="toggle-circle"></div>
                 </div>
-                <h3>React Course - Project 1</h3>
+                <p className={`toggle-dark ${props.darkMode ? "dark" : ""}`}>Dark</p>
             </div>
         </div>
     )

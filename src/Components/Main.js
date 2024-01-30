@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Main = () => {
+const Main = (props) => {
     return (
-        <div className='main'>
+        <div className={`main ${props.darkMode ? "dark" : ""}`}>
             <h1>Fun facts about React!</h1>
             <ul>
                 <li>Was first release in 2013</li>
@@ -11,7 +11,6 @@ const Main = () => {
                 <li>Is maintained by Facebook</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
-
         </div>
     )
 }
