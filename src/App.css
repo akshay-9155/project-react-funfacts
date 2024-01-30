@@ -1,0 +1,106 @@
+.navbar{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right:40px;
+  padding-left:20px;
+  background-color: #111;
+}
+.navPart1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navPart1 img{
+  height: 60px;
+}
+.navPart1 h1{
+  color: aqua;
+}
+.navPart2 h3{
+  color: rgb(219, 183, 246);
+}
+.navPart2 .phone{
+  display: none;
+}
+
+.main{
+  padding-left: 40px;
+  margin-top: 40px;
+  background: no-repeat right url(./Images/half-logo.svg);
+}
+.main h1{
+  color: #fff;
+  font-weight: bold;
+  font-size: 5vw;
+}
+.main ul{
+  padding-left: 40px;
+  margin-top: 40px;
+  color: #555;
+}
+.main ul li{
+  font-size: 1.5vw;
+  line-height: 3vw;
+}
+.main ul li::marker{
+  color: aqua;
+}
+
+@media (max-width: 450px) {
+  .navbar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:10px;
+    padding-left:5px;
+    background-color: #111;
+  }
+
+  .navPart1 img{
+    height: 45px;
+  }
+  .navPart1 h1{
+    font-size: 18px;
+    color: aqua;
+  }
+  .navPart2>h3{
+    display: none;
+  }
+  .navPart2 .phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .navPart2 .phone h3{
+    font-size: 13px;
+  }
+
+  .main{
+    padding-left: 20px;
+    margin-top: 40px;
+    background: no-repeat right url(./Images/half-logo.svg);
+    background-size: cover;
+  }
+  .main h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 5vh;
+  }
+  .main ul{
+    padding-left: 30px;
+    padding-right: 10px;
+    margin-top: 20px;
+    color: #555;
+  }
+  .main ul li{
+    font-size: 3vh;
+    line-height: 4vh;
+  }
+  .main ul li::marker{
+    color: aqua;
+  }
+}
