@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.e9f4fbc1.css",
-    "main.js": "/my-app/static/js/main.c721fd15.js",
-    "static/js/787.963412cf.chunk.js": "/my-app/static/js/787.963412cf.chunk.js",
-    "static/media/half-logo.svg": "/my-app/static/media/half-logo.6115ad07001c36dd9ef4.svg",
-    "static/media/logo.svg": "/my-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/my-app/index.html",
-    "main.e9f4fbc1.css.map": "/my-app/static/css/main.e9f4fbc1.css.map",
-    "main.c721fd15.js.map": "/my-app/static/js/main.c721fd15.js.map",
-    "787.963412cf.chunk.js.map": "/my-app/static/js/787.963412cf.chunk.js.map"
+    "main.css": "/project-react-funfacts/static/css/main.69c94caa.css",
+    "main.js": "/project-react-funfacts/static/js/main.ea503af9.js",
+    "static/js/787.51eb6bc7.chunk.js": "/project-react-funfacts/static/js/787.51eb6bc7.chunk.js",
+    "static/media/half-logo.svg": "/project-react-funfacts/static/media/half-logo.6115ad07001c36dd9ef4.svg",
+    "static/media/logo.svg": "/project-react-funfacts/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/project-react-funfacts/index.html",
+    "main.69c94caa.css.map": "/project-react-funfacts/static/css/main.69c94caa.css.map",
+    "main.ea503af9.js.map": "/project-react-funfacts/static/js/main.ea503af9.js.map",
+    "787.51eb6bc7.chunk.js.map": "/project-react-funfacts/static/js/787.51eb6bc7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9f4fbc1.css",
-    "static/js/main.c721fd15.js"
+    "static/css/main.69c94caa.css",
+    "static/js/main.ea503af9.js"
   ]
 }
