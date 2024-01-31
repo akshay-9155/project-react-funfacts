@@ -37,11 +37,11 @@
   justify-content: flex-start;
   align-items: center;
 }
-.toggle-bar.dark{
+.navbar.dark .toggle-bar{
   justify-content: flex-end;
   background-color: #fff;
 }
-.toggle-bar.dark .toggle-circle{
+.navbar.dark .toggle-circle{
   background-color: #252525;
 }
 .toggle-circle{
@@ -55,7 +55,7 @@
   color: #111;
   font-weight: 900;
 }
-.toggle-light.dark{
+.navbar.dark .toggle-light{
   color: #555;
   font-weight: 900;
 }
@@ -63,7 +63,7 @@
   color: #555;
   font-weight: 900;
 }
-.toggle-dark.dark{
+.navbar.dark .toggle-dark{
   color: #eee;
   font-weight: 900;
 }

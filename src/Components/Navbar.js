@@ -8,11 +8,11 @@ const Navbar = (props) => {
                 <h1>ReactFacts</h1>
             </div>
             <div className="navPart2">
-                <p className={`toggle-light ${props.darkMode ? "dark" : ""}`}>Light</p>
-                <div className={`toggle-bar ${props.darkMode ? "dark" : ""}`} onClick={props.handleToggle}>
+                <p className={`toggle-light`}>Light</p>
+                <div className={`toggle-bar`} onClick={props.handleToggle}>
                     <div className="toggle-circle"></div>
                 </div>
-                <p className={`toggle-dark ${props.darkMode ? "dark" : ""}`}>Dark</p>
+                <p className={`toggle-dark`}>Dark</p>
             </div>
         </div>
     )
